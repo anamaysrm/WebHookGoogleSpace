@@ -2,7 +2,7 @@ name: Walkathon Reminder
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # Runs every 1 minute (change to '0 12 * * *' for 12 PM daily)
+    - cron: '0 12 * * *'  # Runs every 1 minute (change to '0 12 * * *' for 12 PM daily)
   workflow_dispatch:       # Allows manual triggering too
 
 jobs:
