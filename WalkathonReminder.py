@@ -2,7 +2,7 @@ import requests
 import datetime
 
 # Replace this with your webhook URL
-WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAAAHgOtlvM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=UVDhaEUaIHwaHnWy8IesalKakNQqkYmxgMpuMi4GPyE"
+WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAQAs8uFjnM/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=4PoS_lxnlUKsxtb9zkmYaOkZkPSo_nGyySK3bYHaK1k"
 
 today = datetime.date(2025, 8, 1)
 end_date = datetime.date(2025, 8, 31)
