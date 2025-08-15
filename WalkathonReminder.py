@@ -9,16 +9,12 @@ end_date = datetime.date(2025, 8, 31)
 
 if today <= end_date:
     message = {
-        "text": (
-            "🫡 *Team,* it’s time to *lace up and move!* Every step brings us closer to the top. 👟\n\n"
-            "🎯 *Goal:* *10,000 steps per person per day*  \n"
-            "💡 *Tip:* Walk during calls, take the stairs, and keep those feet active! 🚶‍♂️🚶‍♀️💨\n\n"
-            "📆 *Starts:* August 01, 2025  \n"
-            "🏁 *Ends:* August 31, 2025  \n"
-            "🥇 *Prize:* Eternal glory (and maybe more 😏)\n\n"
-            "🔥 Let's make today count — step strong, step proud! 💪💙"
-        )
-    }
+  "text": (
+    "👟 *Team,* lace up — next 3 days = 15,000 steps/day! \n"
+    "💡 Walk during calls, take stairs, keep moving! \n"
+    "🏆 *Reward:* ₹1 Lakh* (terms & conditions apply — shake-shake and walk less-less, that’s how you make-make 💰)"
+  )
+}
 
     response = requests.post(WEBHOOK_URL, json=message)
     print(f"Status: {response.status_code}, Response: {response.text}")
